@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="100" height="20" tilewidth="40" tileheight="40" nextobjectid="189">
+ <tileset firstgid="1" name="TileSet" tilewidth="40" tileheight="40" spacing="1" margin="1" tilecount="28" columns="14">
+  <image source="images/Tiles/TileSet.png" trans="ffffff" width="575" height="83"/>
+ </tileset>
+ <tileset firstgid="29" name="Obstacles" tilewidth="40" tileheight="40" tilecount="1" columns="1">
+  <image source="images/Spikes.png" width="40" height="40"/>
+ </tileset>
+ <tileset firstgid="30" name="Collectable" tilewidth="40" tileheight="40" tilecount="1" columns="1">
+  <image source="images/doge.png" width="40" height="40"/>
+ </tileset>
+ <tileset firstgid="31" name="Enemy" tilewidth="36" tileheight="70" tilecount="1" columns="1">
+  <image source="images/Shia.png" width="36" height="70"/>
+ </tileset>
+ <tileset firstgid="32" name="Sanic" tilewidth="54" tileheight="55" tilecount="1" columns="1">
+  <image source="images/Sanic.png" width="54" height="55"/>
+ </tileset>
+ <tileset firstgid="33" name="LevelExit" tilewidth="40" tileheight="40" tilecount="1" columns="1">
+  <image source="images/doge2.png" width="40" height="40"/>
+ </tileset>
+ <tileset firstgid="34" name="pepe2" tilewidth="64" tileheight="64" tilecount="1" columns="1">
+  <image source="../../Downloads/pepe2.png" width="64" height="64"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="100" height="20">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,34,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,34,34,34,34,34,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,34,34,34,34,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,34,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,34,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,34,34,34,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,34,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,34,34,34,0,0,0,0,0,0,0,0,0,0,0,0,34,34,0,0,0,0,0,0,0,0,0,0,0,34,34,34,34,34,0,0,0,0,0,0,0,0,34,34,34,34,34,0,0,0,0,0,0,0,34,34,34,34,34,34,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,34,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,34,34,34,34,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,34,0,0,0,0,0,0,0,0,0,0,0,0,34,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,34,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,34,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,34,34,34,34,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,34,0,0,0,0,0,0,0,0,0,0,0,0,34,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,34,34,34,34,34,34,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,34,0,0,0,0,0,0,0,34,34,34,34,34,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,34,34,34,34,34,
+34,34,34,34,34,34,34,34,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,34,34,0,0,0,0,0,0,0,0,0,0,0,34,34,0,0,0,0,0,0,0,0,0,0,0,34,34,0,0,34,0,0,34,0,0,0,0,0,0,0,0,0,34,34,34,34,34,
+34,34,34,34,34,34,34,34,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,34,34,34,34,34,
+34,34,34,34,34,34,34,34,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,34,34,34,34,34,
+34,34,34,34,34,34,34,34,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,34,34,34,34,34
+</data>
+ </layer>
+ <objectgroup name="Obstacles">
+  <object id="22" gid="29" x="320.182" y="800" width="40" height="40"/>
+  <object id="23" gid="29" x="360.182" y="800" width="40" height="40"/>
+  <object id="24" gid="29" x="400" y="800" width="40" height="40"/>
+  <object id="25" gid="29" x="440" y="800" width="40" height="40"/>
+  <object id="27" gid="29" x="600.091" y="800" width="40" height="40"/>
+  <object id="28" gid="29" x="560.091" y="800" width="40" height="40"/>
+  <object id="29" gid="29" x="520.273" y="800" width="40" height="40"/>
+  <object id="30" gid="29" x="480.273" y="800" width="40" height="40"/>
+  <object id="31" gid="29" x="759.863" y="800" width="40" height="40"/>
+  <object id="32" gid="29" x="840.137" y="800" width="40" height="40"/>
+  <object id="33" gid="29" x="879.955" y="800" width="40" height="40"/>
+  <object id="34" gid="29" x="719.863" y="800" width="40" height="40"/>
+  <object id="35" gid="29" x="680.045" y="800" width="40" height="40"/>
+  <object id="36" gid="29" x="800.137" y="800" width="40" height="40"/>
+  <object id="37" gid="29" x="640.045" y="800" width="40" height="40"/>
+  <object id="38" gid="29" x="919.955" y="800" width="40" height="40"/>
+  <object id="39" gid="29" x="1080.36" y="800.5" width="40" height="40"/>
+  <object id="40" gid="29" x="1160.64" y="800.5" width="40" height="40"/>
+  <object id="41" gid="29" x="1200.45" y="800.5" width="40" height="40"/>
+  <object id="42" gid="29" x="1040.36" y="800.5" width="40" height="40"/>
+  <object id="43" gid="29" x="1000.55" y="800.5" width="40" height="40"/>
+  <object id="44" gid="29" x="1120.64" y="800.5" width="40" height="40"/>
+  <object id="45" gid="29" x="960.545" y="800.5" width="40" height="40"/>
+  <object id="46" gid="29" x="1240.45" y="800.5" width="40" height="40"/>
+  <object id="47" gid="29" x="1400.86" y="801" width="40" height="40"/>
+  <object id="48" gid="29" x="1481.14" y="801" width="40" height="40"/>
+  <object id="49" gid="29" x="1520.95" y="801" width="40" height="40"/>
+  <object id="50" gid="29" x="1360.86" y="801" width="40" height="40"/>
+  <object id="51" gid="29" x="1321.05" y="801" width="40" height="40"/>
+  <object id="52" gid="29" x="1441.14" y="801" width="40" height="40"/>
+  <object id="53" gid="29" x="1281.05" y="801" width="40" height="40"/>
+  <object id="54" gid="29" x="1560.95" y="801" width="40" height="40"/>
+  <object id="55" gid="29" x="1721.86" y="800" width="40" height="40"/>
+  <object id="56" gid="29" x="1802.14" y="800" width="40" height="40"/>
+  <object id="57" gid="29" x="1841.95" y="800" width="40" height="40"/>
+  <object id="58" gid="29" x="1681.86" y="800" width="40" height="40"/>
+  <object id="59" gid="29" x="1642.05" y="800" width="40" height="40"/>
+  <object id="60" gid="29" x="1762.14" y="800" width="40" height="40"/>
+  <object id="61" gid="29" x="1602.05" y="800" width="40" height="40"/>
+  <object id="62" gid="29" x="1881.95" y="800" width="40" height="40"/>
+  <object id="85" gid="29" x="2600.7" y="800.5" width="40" height="40"/>
+  <object id="86" gid="29" x="2439.8" y="801.5" width="40" height="40"/>
+  <object id="87" gid="29" x="2239.7" y="801.5" width="40" height="40"/>
+  <object id="88" gid="29" x="2359.99" y="801.5" width="40" height="40"/>
+  <object id="89" gid="29" x="2760.8" y="800.5" width="40" height="40"/>
+  <object id="90" gid="29" x="2520.89" y="800.5" width="40" height="40"/>
+  <object id="91" gid="29" x="2560.7" y="800.5" width="40" height="40"/>
+  <object id="92" gid="29" x="2640.99" y="800.5" width="40" height="40"/>
+  <object id="93" gid="29" x="2119.3" y="801" width="40" height="40"/>
+  <object id="94" gid="29" x="2399.8" y="801.5" width="40" height="40"/>
+  <object id="95" gid="29" x="2720.8" y="800.5" width="40" height="40"/>
+  <object id="96" gid="29" x="2079.3" y="801" width="40" height="40"/>
+  <object id="97" gid="29" x="1919.2" y="801" width="40" height="40"/>
+  <object id="98" gid="29" x="2319.99" y="801.5" width="40" height="40"/>
+  <object id="99" gid="29" x="2199.89" y="801.5" width="40" height="40"/>
+  <object id="100" gid="29" x="1959.2" y="801" width="40" height="40"/>
+  <object id="101" gid="29" x="1999.49" y="801" width="40" height="40"/>
+  <object id="102" gid="29" x="2039.49" y="801" width="40" height="40"/>
+  <object id="103" gid="29" x="2480.89" y="800.5" width="40" height="40"/>
+  <object id="104" gid="29" x="2159.89" y="801.5" width="40" height="40"/>
+  <object id="105" gid="29" x="2279.7" y="801.5" width="40" height="40"/>
+  <object id="106" gid="29" x="2680.99" y="800.5" width="40" height="40"/>
+  <object id="107" gid="29" x="3480.7" y="799.5" width="40" height="40"/>
+  <object id="108" gid="29" x="3319.8" y="800.5" width="40" height="40"/>
+  <object id="109" gid="29" x="3119.7" y="800.5" width="40" height="40"/>
+  <object id="110" gid="29" x="3239.99" y="800.5" width="40" height="40"/>
+  <object id="111" gid="29" x="3760.8" y="799.5" width="40" height="40"/>
+  <object id="112" gid="29" x="3400.89" y="799.5" width="40" height="40"/>
+  <object id="113" gid="29" x="3440.7" y="799.5" width="40" height="40"/>
+  <object id="114" gid="29" x="3640.99" y="799.5" width="40" height="40"/>
+  <object id="115" gid="29" x="2999.3" y="800" width="40" height="40"/>
+  <object id="116" gid="29" x="3279.8" y="800.5" width="40" height="40"/>
+  <object id="117" gid="29" x="3720.8" y="799.5" width="40" height="40"/>
+  <object id="118" gid="29" x="2959.3" y="800" width="40" height="40"/>
+  <object id="119" gid="29" x="2799.2" y="800" width="40" height="40"/>
+  <object id="120" gid="29" x="3199.99" y="800.5" width="40" height="40"/>
+  <object id="121" gid="29" x="3079.89" y="800.5" width="40" height="40"/>
+  <object id="122" gid="29" x="2839.2" y="800" width="40" height="40"/>
+  <object id="123" gid="29" x="2879.49" y="800" width="40" height="40"/>
+  <object id="124" gid="29" x="2919.49" y="800" width="40" height="40"/>
+  <object id="125" gid="29" x="3360.89" y="799.5" width="40" height="40"/>
+  <object id="126" gid="29" x="3039.89" y="800.5" width="40" height="40"/>
+  <object id="127" gid="29" x="3159.7" y="800.5" width="40" height="40"/>
+  <object id="128" gid="29" x="3680.99" y="799.5" width="40" height="40"/>
+  <object id="129" gid="29" x="3521.09" y="800" width="40" height="40"/>
+  <object id="130" gid="29" x="3561.09" y="800" width="40" height="40"/>
+  <object id="131" gid="29" x="3640.91" y="800" width="40" height="40"/>
+  <object id="132" gid="29" x="3600.91" y="800" width="40" height="40"/>
+ </objectgroup>
+ <objectgroup name="Collectables">
+  <object id="133" gid="30" x="119" y="640" width="40" height="40"/>
+  <object id="134" gid="30" x="278" y="641" width="40" height="40"/>
+  <object id="138" gid="30" x="438" y="159" width="40" height="40"/>
+  <object id="139" gid="30" x="677" y="319" width="40" height="40"/>
+  <object id="141" gid="30" x="920" y="560" width="40" height="40"/>
+  <object id="145" gid="30" x="1476" y="160" width="40" height="40"/>
+  <object id="146" gid="30" x="1917" y="319" width="40" height="40"/>
+  <object id="147" gid="30" x="2080" y="640" width="40" height="40"/>
+  <object id="148" gid="30" x="2278" y="321" width="40" height="40"/>
+  <object id="149" gid="30" x="2100" y="480" width="40" height="40"/>
+  <object id="150" gid="30" x="2639" y="641" width="40" height="40"/>
+  <object id="151" gid="30" x="2957" y="320" width="40" height="40"/>
+  <object id="152" gid="30" x="3140" y="639" width="40" height="40"/>
+  <object id="153" gid="30" x="3399" y="641" width="40" height="40"/>
+  <object id="154" gid="30" x="3519" y="481" width="40" height="40"/>
+  <object id="155" gid="30" x="3360" y="278" width="40" height="40"/>
+  <object id="156" gid="30" x="3518" y="37" width="40" height="40"/>
+  <object id="157" gid="30" x="3839" y="557" width="40" height="40"/>
+  <object id="161" gid="30" x="2618" y="479" width="40" height="40"/>
+ </objectgroup>
+ <objectgroup name="Enemy">
+  <object id="164" name="Path4" x="939" y="534">
+   <polyline points="0,0 215,1"/>
+  </object>
+  <object id="165" gid="31" x="1123" y="561" width="36" height="70">
+   <properties>
+    <property name="Path" value="Path4"/>
+    <property name="movespeed" type="float" value="2"/>
+   </properties>
+  </object>
+  <object id="166" name="Path5" x="2284" y="299">
+   <polyline points="0,0 194,1"/>
+  </object>
+  <object id="167" gid="31" x="2442" y="320" width="36" height="70">
+   <properties>
+    <property name="Path" value="Path5"/>
+   </properties>
+  </object>
+  <object id="169" name="Path6" x="2803" y="301">
+   <polyline points="0,0 191,-1"/>
+  </object>
+  <object id="170" gid="31" x="2799" y="321" width="36" height="70">
+   <properties>
+    <property name="Path" value="Path6"/>
+   </properties>
+  </object>
+  <object id="171" name="Path7" x="1657" y="8">
+   <polyline points="0,0 1,527"/>
+  </object>
+  <object id="172" gid="32" x="1633" y="50" width="54" height="55">
+   <properties>
+    <property name="Path" value="Path7"/>
+    <property name="movespeed" type="float" value="4"/>
+   </properties>
+  </object>
+  <object id="175" name="Path8" x="562" y="9">
+   <polyline points="0,0 -2,587"/>
+  </object>
+  <object id="176" gid="32" x="536" y="51" width="54" height="55">
+   <properties>
+    <property name="Path" value="Path8"/>
+    <property name="movespeed" type="float" value="4"/>
+   </properties>
+  </object>
+  <object id="180" name="Path9" x="2559" y="637">
+   <polyline points="0,0 -1,-627"/>
+  </object>
+  <object id="181" gid="32" x="2534" y="50" width="54" height="55">
+   <properties>
+    <property name="Path" value="Path9"/>
+    <property name="movespeed" type="float" value="4"/>
+   </properties>
+  </object>
+  <object id="182" name="Path10" x="3078" y="677">
+   <polyline points="0,0 0,-649"/>
+  </object>
+  <object id="183" gid="32" x="3054" y="49" width="54" height="55">
+   <properties>
+    <property name="Path" value="Path10"/>
+    <property name="movespeed" type="float" value="4"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="LevelExit">
+  <object id="184" gid="33" x="3942" y="559" width="40" height="40">
+   <properties>
+    <property name="NextMap" value="Map3.tmx"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
